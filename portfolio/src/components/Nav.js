@@ -1,13 +1,29 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Nav() {
+function Nav({ currentPage, handlePageChange }) {
 
     return (
-        <div className='flex-1 bg-black text-white font-bold text-3xl '>
+        <div className='flex-1 bg-black text-mainColor font-bold text-3xl '>
             <ul className='flex place-content-end mr-20'>
-                <li className='p-5'><a href='#'>About Me</a> </li>
-                <li className='p-5'><a href='#'> Portfolio</a> </li>
-                <li className='p-5'><a href='#'>Resume </a> </li>
+                <li className='p-5'><a
+                    href='#AboutMe'
+                    onClick={() => handlePageChange('AboutMe')}
+                    className={currentPage === 'AboutMe' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link p-5 active:text-mColord'}
+                >
+                    About Me</a> </li>
+                <li className='p-5'><a
+                    href='#Portfolio'
+                    onClick={() => handlePageChange('Portfolio')}
+                    // className='hover:text-mColorll'
+                    className={currentPage === 'Portfolio' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link p-5 active:text-mColord'}
+                >
+                    Portfolio</a> </li>
+                <li className='p-5'><a
+                    href='#Resume'
+                    onClick={() => handlePageChange('Resume')}
+                    className={currentPage === 'Resume' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link p-5 active:text-mColord'}
+                >
+                    Resume </a> </li>
             </ul>
         </div>
     )
