@@ -8,20 +8,20 @@ function Nav({ currentPage, handlePageChange }) {
                 <li className='p-5'><a
                     href='#AboutMe'
                     onClick={() => handlePageChange('AboutMe')}
-                    className={currentPage === 'AboutMe' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link p-5 active:text-mColord'}
+                    className={currentPage === 'AboutMe' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link active:text-mColord'}
                 >
                     About Me</a> </li>
                 <li className='p-5'><a
                     href='#Portfolio'
                     onClick={() => handlePageChange('Portfolio')}
                     // className='hover:text-mColorll'
-                    className={currentPage === 'Portfolio' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link p-5 active:text-mColord'}
+                    className={currentPage === 'Portfolio' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link active:text-mColord'}
                 >
                     Portfolio</a> </li>
                 <li className='p-5'><a
                     href='#Resume'
                     onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link p-5 active:text-mColord'}
+                    className={currentPage === 'Resume' ? 'hover:text-mColorll active:text-mColord' : 'hover:text-mColorll nav-link active:text-mColord'}
                 >
                     Resume </a> </li>
             </ul>
