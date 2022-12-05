@@ -4,6 +4,7 @@ import Footer from './Footer';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
+import ContactMe from './Contact';
 
 export default function Main() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -19,6 +20,9 @@ export default function Main() {
         if (currentPage === 'Resume') {
             return <Resume />
         }
+        if (currentPage === 'Contact') {
+            return <ContactMe />
+        }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -26,6 +30,7 @@ export default function Main() {
     return (
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Footer />
             {renderPage()}
         </div>
     )
