@@ -13,7 +13,8 @@ module.exports = {
       'sColorll': '#35414B',
       'sColorl': '#2D3C48',
       'sColord': '#2C363F',
-      'sColordd': '#27323B'
+      'sColordd': '#27323B',
+      'white': '#FFFFFF',
     }
   },
   plugins: [],
