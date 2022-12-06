@@ -11,9 +11,9 @@
 
   ## Description
   I built this portfolio to showcase my work and the skills I've acquired in web development. I created a react app and made components to fill the page. I used tailwindcss to style this project. I really enjoyed using it and would 100% recommend others to try it out. I installed a npm for the icons I used in the footer.
+![Projects Tab](./portfolio/src/images/portfolioRExample.PNG)
 
-
-This code snippet is the start of my grid layout for my projects. I could have done flexbox and such but grid was so easy to implement I just had to use it here. I made the grid to be three columns with a gap inbetween the elements. Inside I contained the project element in a div that contains on hoover effect. The images are anchors that will open the repo for the respective project. I then Made another div to wrap the project name and its type. This div is set to be in the top left of the project container. 
+This code snippet is the start of my grid layout for my projects. I could have done flexbox and such but grid was so easy to implement I just had to use it here. I made the grid to be three columns with a gap inbetween the elements. Inside I contained the project element in a div that contains on hoover effect. The images are anchors that will open the repo for the respective project. I then Made another div to wrap the project name and its type. This div is set to be in the top left of the project container. The second div repeats for each project and the grid does the rest.
 
   ```javascript
 
@@ -31,7 +31,7 @@ This code snippet is the start of my grid layout for my projects. I could have d
   </div>
   ```
   You can view the repo here:
-  [Github](https://github.com/johnfrom209/the-social-network)
+  [Github](https://github.com/johnfrom209/portfolio-react)
 
   ## Installation
   NA
