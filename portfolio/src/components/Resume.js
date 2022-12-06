@@ -4,7 +4,7 @@ function Resume() {
 
     return (
 
-        <div className="text-white ml-24">
+        <div className="text-white ml-24 pb-10">
             <h2 className="text-7xl border-b-8 border-double border-mColorll w-fit pb-4 mb-4 ">Jonathan Moreno</h2>
             <h3 className="text-3xl">Full Stack Developer | <a href={resume}>Resume</a></h3>
 
