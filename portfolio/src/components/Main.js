@@ -28,7 +28,7 @@ export default function Main() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className='h-full'>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             <Footer />
             {renderPage()}
