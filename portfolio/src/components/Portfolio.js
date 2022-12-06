@@ -42,9 +42,9 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl  rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl h-64  rounded-md border-solid border-2">
                 <a href="https://github.com/johnfrom209/Backend-Retail" target="_blank" rel="noopener noreferrer">
-                    <img className="rounded-md min-h-full max-h-80 w-full" src={backendRetail} alt=""></img>
+                    <img className="rounded-md h-64 w-full" src={backendRetail} alt=""></img>
                 </a>
                 <div className="bg-sColorMain text-mColorll text-xl rounded-b-md absolute left-0 top-0">
                     <h4 className="block">Project: Backend Retail</h4>
@@ -52,9 +52,9 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl  rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl h-64 relative border-sColorl  rounded-md border-solid border-2">
                 <a href="https://github.com/johnfrom209/Notepad-Express" target="_blank" rel="noopener noreferrer">
-                    <img className="rounded-md min-h-full max-h-80 w-full" src={notepadExpress} alt=""></img>
+                    <img className="rounded-md h-64 min-h-full max-h-80 w-full" src={notepadExpress} alt=""></img>
                 </a>
                 <div className="bg-sColorMain text-mColorll text-xl rounded-b-md absolute left-0 top-0">
                     <h4 className="block">Project: Notepad Express</h4>
@@ -62,9 +62,9 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl  rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl h-64 relative border-sColorl  rounded-md border-solid border-2">
                 <a href="https://github.com/johnfrom209/JohnDMoreno-Portfolio" target="_blank" rel="noopener noreferrer">
-                    <img className="rounded-md min-h-full max-h-80 w-full" src={jmPortfolio} alt=""></img>
+                    <img className="rounded-md h-64 min-h-full max-h-80 w-full" src={jmPortfolio} alt=""></img>
                 </a>
                 <div className="bg-sColorMain text-mColorll text-xl rounded-b-md absolute left-0 top-0">
                     <h4 className="block">Project: Portfolio</h4>
