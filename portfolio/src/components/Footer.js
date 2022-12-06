@@ -1,16 +1,26 @@
 import React from 'react';
-import { goMarkGithub } from 'react-icons/go';
+import { FaGithubSquare } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
+import { AiFillMediumSquare } from 'react-icons/ai';
 
 function Footer() {
 
     return (
-        <div className='absolute bottom-0 mt-5 m-auto w-full h-10'>
-            <ul className='block m-auto'>
-                <li className='inline-block'> <goMarkGithub /> Hold</li>
-                <li className='inline-block'> <AiFillLinkedin />  Hold</li>
-                <li className='inline-block'>Placeholder</li>
-            </ul>
+        <div className='absolute bottom-0 w-full'>
+            <div className='text-center mx-0 my-auto'>
+                <ul className='text-6xl'>
+                    <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
+                        <a href='https://github.com/johnfrom209'><FaGithubSquare /></a>
+                    </li>
+                    <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
+                        <a href='https://www.linkedin.com/in/johnfrom209/'><AiFillLinkedin /></a>
+                    </li>
+                    <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
+                        <a href='https://medium.com/@johnfrom209/haml-vs-handlebars-70bfa523981d'><AiFillMediumSquare /></a>
+
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }
