@@ -53,7 +53,7 @@ function ContactForm() {
     }
 
     return (
-        <div className='mt-40 font-bold place-content-center flex justify-center'>
+        <div className='mt-20 font-bold place-content-center flex justify-center'>
             <div className='bg-sColorll rounded-xl p-5 w-3/12'>
                 <h4 className='text-5xl text-mColord ml-5  mb-5 flex '>Contact Me</h4>
                 <form className="form place-self-center text-xl ">

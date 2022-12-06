@@ -4,13 +4,13 @@ function Resume() {
 
     return (
 
-        <div className="text-white ml-24 mb-10">
+        <div className="text-white ml-24">
             <h2 className="text-7xl border-b-8 border-double border-mColorll w-fit pb-4 mb-4 ">Jonathan Moreno</h2>
-            <h3 className="text-3xl">Full Stack Developer | <a href={resume}>Resume</a></h3>
+            <h3 className="text-2xl">Full Stack Developer | <a href={resume}>Resume</a></h3>
 
-            <div className="text-2xl mt-5 bg-sColorll rounded-xl w-fit block m-auto p-5">
+            <div className="text-lg mt-5 bg-sColorll rounded-xl w-fit block m-auto p-5">
                 <h4 className="inline-block underline mb-8">Skills:</h4>
-                <ul className="grid grid-cols-3 gap-4 ml-60 gap-x-24">
+                <ul className="grid grid-cols-4 gap-2 ml-32 gap-x-10">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>

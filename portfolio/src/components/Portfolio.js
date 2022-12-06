@@ -10,7 +10,7 @@ function Portfolio() {
 
     return (
 
-        <div className="grid grid-cols-3 gap-8 mx-10 mt-10">
+        <div className="grid grid-cols-3 gap-4 auto-rows-auto mx-10 mt-2">
 
             <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2">
                 <a href="https://github.com/johnfrom209/js_Pop_Quiz" target="_blank" rel="noopener noreferrer">

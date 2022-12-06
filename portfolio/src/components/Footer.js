@@ -8,7 +8,7 @@ function Footer() {
     return (
         <div className='absolute bottom-0 w-full'>
             <div className='text-center mx-0 my-auto'>
-                <ul className='text-6xl'>
+                <ul className='text-4xl'>
                     <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
                         <a href='https://github.com/johnfrom209'><FaGithubSquare /></a>
                     </li>
