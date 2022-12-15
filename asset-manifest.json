@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.f3477609.css",
-    "main.js": "/portfolio-react/static/js/main.1be8b6e4.js",
+    "main.js": "/portfolio-react/static/js/main.70cba3b8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/selfie.jpg": "/portfolio-react/static/media/selfie.6c00140fc9ff19272b70.jpg",
     "static/media/jmPortfolio.PNG": "/portfolio-react/static/media/jmPortfolio.8685a4f1b19dd8189d37.PNG",
     "static/media/jonathanMorenoResume.pdf": "/portfolio-react/static/media/jonathanMorenoResume.8ec434c740b5ab35ad06.pdf",
+    "static/media/ppChallengeStyle.PNG": "/portfolio-react/static/media/ppChallengeStyle.b68f88b644e05b7dc46d.PNG",
     "static/media/backendRetailExample.PNG": "/portfolio-react/static/media/backendRetailExample.cc10d3c8e765e1b36b54.PNG",
     "static/media/jsQuizRun.png": "/portfolio-react/static/media/jsQuizRun.141c12656b0423e6e267.png",
     "static/media/notepadexample.png": "/portfolio-react/static/media/notepadexample.1da6a4de271d66756d4d.png",
-    "static/media/eventsexample.PNG": "/portfolio-react/static/media/eventsexample.2c183e53cba990a04e76.PNG",
     "static/media/employeeRecordsExample.PNG": "/portfolio-react/static/media/employeeRecordsExample.ab3b87a7a1b9cf89827a.PNG",
     "static/media/polygon.png": "/portfolio-react/static/media/polygon.907f17b58cf68c2bf331.png",
     "index.html": "/portfolio-react/index.html",
     "main.f3477609.css.map": "/portfolio-react/static/css/main.f3477609.css.map",
-    "main.1be8b6e4.js.map": "/portfolio-react/static/js/main.1be8b6e4.js.map",
+    "main.70cba3b8.js.map": "/portfolio-react/static/js/main.70cba3b8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3477609.css",
-    "static/js/main.1be8b6e4.js"
+    "static/js/main.70cba3b8.js"
   ]
 }
