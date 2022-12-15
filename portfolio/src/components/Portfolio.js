@@ -1,10 +1,11 @@
 import React from "react";
 import jsQuiz from "../images/jsQuizRun.png";
-import cityGrader from "../images/eventsexample.PNG"
+// import cityGrader from "../images/eventsexample.PNG"
 import employeeRecords from "../images/employeeRecordsExample.PNG"
 import backendRetail from "../images/backendRetailExample.PNG"
 import notepadExpress from "../images/notepadexample.png"
 import jmPortfolio from "../images/jmPortfolio.PNG"
+import pokemonPrime from "../images/ppChallengeStyle.PNG"
 
 function Portfolio() {
 
@@ -23,12 +24,12 @@ function Portfolio() {
             </div>
 
             <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2">
-                <a href="https://github.com/johnfrom209/city-grader" target="_blank" rel="noopener noreferrer">
-                    <img className="rounded-md min-h-full" src={cityGrader} alt="Modal shows nearby events"></img>
+                <a href="https://github.com/johnfrom209/Pokemon-Prime" target="_blank" rel="noopener noreferrer">
+                    <img className="rounded-md min-h-full" src={pokemonPrime} alt="Pokemon Challenge"></img>
                 </a>
                 <div className="bg-sColorMain text-mColorll text-xl rounded-b-md absolute left-0 top-0">
-                    <h4 className="block">Project: CityGrader</h4>
-                    <h5 className=" block">Type: JS/HTML/CSS/API </h5>
+                    <h4 className="block">Project: Pokemon Prime</h4>
+                    <h5 className=" block">Type: JS/HTML/CSS/API/React </h5>
                 </div>
             </div>
 
