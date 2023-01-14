@@ -5,7 +5,7 @@ function AboutMe() {
 
     return (
 
-        <div className="mx-56 mt-10 font-bold bg-sColorll rounded-xl shadow-xl p-2">
+        <div className="mx-56 mt-10 font-bold bg-sColorll rounded-xl shadow-xl p-3">
             {/* <h4 className="text-2xl text-mColord  mb-5 flex">AboutMe</h4> */}
             <img className="max-h-56 inline-block rounded-full border-4 border-mColord" src={selfie} alt="Selfie of Jonathan Moreno"></img>
             <p className="text-2xl p-5 text-white leading-loose font-semibold inline-block">Hello, I'm Jonathan Moreno, <br></br>

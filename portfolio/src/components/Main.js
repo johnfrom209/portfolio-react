@@ -30,8 +30,8 @@ export default function Main() {
     return (
         <div className='h-full'>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-            <Footer />
             {renderPage()}
+            <Footer />
         </div>
     )
 }

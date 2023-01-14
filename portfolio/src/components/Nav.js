@@ -3,7 +3,7 @@ import React from 'react';
 function Nav({ currentPage, handlePageChange }) {
 
     return (
-        <div className='flex-1 text-mainColor font-bold text-xl '>
+        <nav className='flex-1 text-mainColor font-bold text-xl '>
             <ul className='flex place-content-end mr-20'>
                 <li className='p-5'><a
                     href='#AboutMe'
@@ -31,7 +31,7 @@ function Nav({ currentPage, handlePageChange }) {
                 >
                     Contact Me </a> </li>
             </ul>
-        </div>
+        </nav>
     )
 }
 

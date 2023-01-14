@@ -6,7 +6,7 @@ import { AiFillMediumSquare } from 'react-icons/ai';
 function Footer() {
 
     return (
-        <div className='absolute bottom-0 w-full'>
+        <footer className='block w-full mt-10'>
             <div className='text-center mx-0 my-auto'>
                 <ul className='text-4xl'>
                     <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
@@ -21,7 +21,7 @@ function Footer() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </footer>
     )
 }
 
