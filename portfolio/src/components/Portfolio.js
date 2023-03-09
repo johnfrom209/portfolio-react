@@ -11,9 +11,9 @@ function Portfolio() {
 
     return (
 
-        <div className="grid grid-cols-3 gap-4 auto-rows-auto mx-10 mt-2 pb-14">
+        <div className="h-full w-full flex flex-wrap gap-12 xl:mx-10 mt-2 pb-14 justify-center">
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/js_Pop_Quiz" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-md min-h-full" src={jsQuiz} alt="Quiz in progress"></img>
                 </a>
@@ -23,7 +23,7 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/Pokemon-Prime" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-md min-h-full" src={pokemonPrime} alt="Pokemon Challenge"></img>
                 </a>
@@ -33,7 +33,7 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/Employee-Records" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-md min-h-full" src={employeeRecords} alt=""></img>
                 </a>
@@ -43,7 +43,7 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl h-64  rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl h-64  rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/Backend-Retail" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-md h-64 w-full" src={backendRetail} alt=""></img>
                 </a>
@@ -53,7 +53,7 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl h-64 relative border-sColorl  rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl h-64 relative border-sColorl  rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/Notepad-Express" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-md h-64 min-h-full max-h-80 w-full" src={notepadExpress} alt=""></img>
                 </a>
@@ -63,7 +63,7 @@ function Portfolio() {
                 </div>
             </div>
 
-            <div className="hover:shadow-mColorll hover:shadow-xl h-64 relative border-sColorl  rounded-md border-solid border-2">
+            <div className="hover:shadow-mColorll hover:shadow-xl h-64 relative border-sColorl  rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/JohnDMoreno-Portfolio" target="_blank" rel="noopener noreferrer">
                     <img className="rounded-md h-64 min-h-full max-h-80 w-full" src={jmPortfolio} alt=""></img>
                 </a>
