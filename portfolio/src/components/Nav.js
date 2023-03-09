@@ -3,8 +3,8 @@ import React from 'react';
 function Nav({ currentPage, handlePageChange }) {
 
     return (
-        <nav className='flex-1 text-mainColor font-bold text-xl '>
-            <ul className='flex place-content-end mr-20'>
+        <nav className='flex flex-1 text-mainColor font-bold xl:text-xl xl:place-content-end '>
+            <ul className='flex  '>
                 <li className='p-5'><a
                     href='#AboutMe'
                     onClick={() => handlePageChange('AboutMe')}
@@ -21,15 +21,15 @@ function Nav({ currentPage, handlePageChange }) {
                 <li className='p-5'><a
                     href='#Resume'
                     onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'active:text-mColord active' : 'hover:text-mColorll nav-link active:text-mColord'}
+                    className={currentPage === 'Resume' ? ' active' : 'hover:text-mColorll nav-link active:text-mColord'}
                 >
                     Resume </a> </li>
                 <li className='p-5'><a
                     href='#Contact'
                     onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'hover:text-mColorll active:text-mColord active' : 'hover:text-mColorll nav-link active:text-mColord'}
+                    className={currentPage === 'Contact' ? 'hover:text-mColorll active' : 'hover:text-mColorll nav-link active:text-mColord'}
                 >
-                    Contact Me </a> </li>
+                    Contact</a> </li>
             </ul>
         </nav>
     )
