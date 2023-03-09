@@ -11,7 +11,7 @@ function Portfolio() {
 
     return (
 
-        <div className="h-full w-full flex flex-wrap gap-12 xl:mx-10 mt-2 pb-14 justify-center">
+        <div className="h-full w-full flex flex-wrap gap-12 mb-14 mt-2 pb-14 justify-center">
 
             <div className="hover:shadow-mColorll hover:shadow-xl relative border-sColorl rounded-md border-solid border-2 xl:w-1/4">
                 <a href="https://github.com/johnfrom209/js_Pop_Quiz" target="_blank" rel="noopener noreferrer">
