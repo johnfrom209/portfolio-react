@@ -13,7 +13,7 @@ function Footer() {
                         <a href='https://github.com/johnfrom209'><FaGithubSquare /></a>
                     </li>
                     <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
-                        <a href='https://www.linkedin.com/in/johnfrom209/'><AiFillLinkedin /></a>
+                        <a href='https://www.linkedin.com/in/jonathandmoreno'><AiFillLinkedin /></a>
                     </li>
                     <li className='inline-block hover:shadow-mColorll hover:shadow-xl '>
                         <a href='https://medium.com/@johnfrom209/haml-vs-handlebars-70bfa523981d'><AiFillMediumSquare /></a>
